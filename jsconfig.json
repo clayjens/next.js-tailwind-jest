@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "lib": [ "DOM", "DOM.Iterable"],
+        "allowJs": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./src/components/*"]
+        },
+    },
+    "include": [
+        "**/*.js",
+        "**/*.jsx",
+    ]
+}

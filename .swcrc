@@ -1,0 +1,10 @@
+{
+    "jsc": {
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": [
+                "./src/components/*"
+            ]
+        }
+    }
+}
